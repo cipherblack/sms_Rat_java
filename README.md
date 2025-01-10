@@ -31,9 +31,9 @@ Setup Instructions
      mvn clean install
      ```
    - If you are using Gradle, run the following command:
-   ```bash
-     gradle build
-   ```
+      ```bash
+      gradle build
+      ```
 6. **Running the Project**
    - Locate the main class of the project (usually the class containing the public static void main(String[] args) method).
    - Right-click on the main class and select the Run option to start the application.
