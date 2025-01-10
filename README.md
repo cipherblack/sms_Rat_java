@@ -31,13 +31,13 @@ Setup Instructions
      mvn clean install
      ```
    - If you are using Gradle, run the following command:
+   ```bash
      gradle build
-
+   ```
 6. **Running the Project**
    - Locate the main class of the project (usually the class containing the public static void main(String[] args) method).
    - Right-click on the main class and select the Run option to start the application.
 
-# Common Issues and Troubleshooting
 
 - Dependency Issues: If you encounter errors related to missing dependencies, ensure that your system is connected to the internet so that Maven or Gradle can download the necessary dependencies.
 - JDK Version Errors: If you face issues related to JDK version mismatches, double-check that the correct JDK version is configured in your IDE (e.g., JDK 11 or newer).
